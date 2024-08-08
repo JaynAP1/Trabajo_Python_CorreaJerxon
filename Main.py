@@ -1,13 +1,11 @@
 import json
-import datetime
+import datetimeE
 import os
-
-
 
 Bol=True
 while Bol==True:
 
-    with open("Info.json", encoding="utf-8") as openfile:
+    with open("Info.json", encoding="utf-8") as openfile: 
         PrecioPan=json.load(openfile)
 
     with open("DatosVentas.json", encoding="utf-8") as openVenta:
